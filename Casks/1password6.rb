@@ -8,7 +8,7 @@ cask "1password6" do
   homepage "https://1password.com/"
 
   auto_updates true
-  depends_on macos: ">= :yosemite"
+  depends_on macos: ">= :monterey"
 
   app "1Password #{version.major}.app"
 
